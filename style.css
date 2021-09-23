@@ -13,9 +13,10 @@ body{
     clear: both;
 }
 .nav-menu{
-    width: 99vw;
-    height: 50px;
-    margin: 10px 10px;
+    background-color: white;
+    width: 100vw;
+    height: 70px;
+    padding: 10px 10px;
     position: fixed;
     top: 0;
     right:0;
@@ -36,10 +37,52 @@ body{
 .btn{
     font-size:12px ;
     margin:10px;
-    padding: 5px 15px
+    padding: 5px 15px;
+    text-decoration: none;
     
 }
 .blue-btn{
     background-color: #0061ff;
     color: white;
+}
+/* jumbotron */
+.jumbotron{
+    background-color: #b4d0e7;
+    max-height: 650px;
+    margin-top: 70px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.container h1{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+#text-jumbo{
+    float: left;
+    max-width: 40%;
+    
+}
+#text-jumbo p{
+    margin: 25px 0;
+
+}
+.fa-arrow-down{
+    font-size: 30px;
+    color: black;
+}
+#banner-jumbo{
+    float: right;
+    max-width: 60%;
+  
+}
+#banner-jumbo img{
+    max-width: 715px;
+
+}
+.btn-free-trial{
+    margin-left:0;
+    font-size: 15px;
 }
