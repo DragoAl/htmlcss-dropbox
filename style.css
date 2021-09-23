@@ -86,3 +86,20 @@ body{
     margin-left:0;
     font-size: 15px;
 }
+/* main */
+.container-center{
+    padding: 200px 0;
+    width: 70%;
+    margin: 0 auto;
+}
+.container-center h2{
+    font-size: 35px;
+    padding-left: 30px;
+}
+.subscription-plans{
+    float: left;
+    width: calc(100% / 3 - 60px);
+    height: 700px;
+    margin: 20px;
+    border: 1px solid black;
+}
