@@ -12,6 +12,7 @@
 
      <!-- library fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="style.css">
 
@@ -29,7 +30,7 @@
                 <a class="l-side" href="#">Funzioni</a>
                 <a class="l-side" href="#">Piani e Prezzi</a>
 
-                <a class="r-side btn blue-btn" href="#">Inizia</a>
+                <a id="start" class="r-side btn blue-btn" href="#">Inizia</a>
                 <a class="r-side" href="#">Accedi</a>
                 <a class="r-side" href="#">Contatta l'ufficio Vendite</a>
                 <a class="r-side" href="#">Supporto</a>
@@ -58,18 +59,156 @@
     <main>
         <!-- sezione piano abbonamento -->
         <div class="container-center clearfix">
-            <div>
+            <div class="align">
                 <h2>Trova il piano Business che fa per te</h2>
-                <span> Fatturazione Mensile</span>
-                <span> Fatturazione Annuale</span>
+
+                <div><span id="radio-checked" class="radio-btn"></span>Fatturazione Mensile</div>
+                <div><span id="radio-unchecked" class="radio-btn"></span>Fatturazione Annuale</div>
 
             </div>
-            <section class="subscription-plans"></section>
-            <section class="subscription-plans"></section>
-            <section class="subscription-plans"></section>
+            <!-- colonna sinistra -->
+            <section class="subscription-plans">
+                <div class="header-sub"><i class="far fa-user"></i> Singolo</div>
+                
+                <div class="features-sub">
+                    <h3 class="text-plan">Professional</h3>
+                    <span class="price">19,99&euro;</span>
+                    <span class="time-pay">/mese</span>
+                   
+                    <ul class="features-list">
+                        <li class="logo-list logouser"><span>1 Utente</span> </li>
+                        <li class="logo-list logofolder"><span>3TB di archiviazione sicuro</span> </li>
+                        <li class="logo-list logopen"><span>Funzione di produttività premium e condivisione file semplice e sicura</span> </li>
+                    </ul>
+                
+                    
+                    <div class="btn-30free"><a class="btn blue-btn  btn-30free" href="#">Prova Gratis per 30 giorni </a></div>
+
+                    <span>oppure <a class="buynow" href="#"> Acquista ora</a></span>
+                    <hr class="hor-line">
+                    
+                    <div class="plan-highlights">
+                        <h5>Punti Salienti del Piano</h5>
+                        <ul class="highlights">
+                            <li class="logo-list checklogo"><span> Invia fino a 100Gb con Dropbox Transfert</span></li>
+                            <li class="logo-list checklogo"><span> Cartelle Offline su dispositivi mobili</span></li>
+                            <li class="logo-list checklogo"><span> Pulizia remota dell'account</span></li>
+                            <li class="logo-list checklogo"><span> Filigrana documento</span></li>
+                            <li class="logo-list checklogo"><span> Assistenza prioritaria via email o chat</span></li>
 
 
 
+                        </ul>
+                    </div>
+
+
+
+                </div>
+              
+            </section>
+            <!-- colonna centrale -->
+            <section class="subscription-plans">
+                <div class="header-sub"><i class="fas fa-building"></i> Team</div>
+
+                <div class="features-sub">
+                    <h3 class="text-plan">Standard</h3>
+                    <span class="price">19,99&euro;</span>
+                    <span class="time-pay">/ Utente, a partire da 3 utenti</span>
+                   
+                    <ul class="features-list">
+                        <li class="logo-list logouserplus"><span>1 Utente</span> </li>
+                        <li class="logo-list logofolder"><span>3TB di archiviazione sicuro</span> </li>
+                        <li class="logo-list logosmile"><span>Funzione di produttività premium e condivisione file semplice e sicura</span> </li>
+                    </ul>
+                
+                    
+                    <div class="btn-30free"><a class="btn blue-btn  btn-30free" href="#">Prova Gratis per 30 giorni </a></div>
+
+                    <span>oppure <a class="buynow" href="#"> Acquista ora</a></span>
+                    <hr class="hor-line">
+                    
+                    <div class="plan-highlights">
+                        <h5>Punti Salienti del Piano</h5>
+                        <ul class="highlights">
+                            <li class="logo-list checklogo"><span> Invia fino a 100Gb con Dropbox Transfert</span></li>
+                            <li class="logo-list checklogo"><span> Cartelle Offline su dispositivi mobili</span></li>
+                            <li class="logo-list checklogo"><span> Pulizia remota dell'account</span></li>
+                            <li class="logo-list checklogo"><span> Filigrana documento</span></li>
+                            <li class="logo-list checklogo"><span> Assistenza prioritaria via email o chat</span></li>
+                            <li class="logo-list checklogo"><span> Assistenza prioritaria via email o chat</span></li>
+
+
+
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </section>
+            <!-- colonna destra -->
+            <section class="subscription-plans">
+                <div class="header-sub"><i class="fas fa-building"></i> Team</div>
+                <div class="features-sub">
+                    <h3 class="text-plan">Advanced</h3>
+                    <span class="price">19,99&euro;</span>
+                    <span class="time-pay">/ Utente, a partire da 3 utenti</span>
+                   
+                    <ul class="features-list">
+                        <li class="logo-list logouserplus"><span>1 Utente</span> </li>
+                        <li class="logo-list logosmile"><span>3TB di archiviazione sicuro</span> </li>
+                        <li class="logo-list logopen"><span>Funzione di produttività premium e condivisione file semplice e sicura</span> </li>
+                    </ul>
+                
+                    
+                    <div class="btn-30free"><a class="btn blue-btn  btn-30free" href="#">Prova Gratis per 30 giorni</a></div>
+
+                    <span>oppure <a class="buynow" href="#"> Acquista ora</a></span>
+                    <hr class="hor-line">
+                    
+                    <div class="plan-highlights">
+                        <h5>Punti Salienti del Piano</h5>
+                        <ul class="highlights">
+                            <li class="logo-list checklogo"><span> Invia fino a 100Gb con Dropbox Transfert</span></li>
+                            <li class="logo-list checklogo"><span> Cartelle Offline su dispositivi mobili</span></li>
+                            <li class="logo-list checklogo"><span> Pulizia remota dell'account</span></li>
+                            <li class="logo-list checklogo"><span> Filigrana documento</span></li>
+                            <li class="logo-list checklogo"><span> Assistenza prioritaria via email o chat</span></li>
+                            <li class="logo-list checklogo"><span> Assistenza prioritaria via email o chat</span></li>
+
+
+
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </section>
+            
+        </div>
+        <div class="container-center">
+            <section class=" subscription-plans-enterprise">
+                <div class="header-sub"><i class="far fa-building"></i>Team</div>
+                <div class="clearfix">
+                    <div class="ent-left">
+                        <h3 class="text-plan">Enterprise</h3>
+                        <p>contatta l'ufficio vendite per i prezzi</p>
+                        <span> Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</span>
+
+                    </div>
+                    <div class="ent-right">
+                        <div ><a class="btn blue-btn sell-off " href="#">Contatta l'ufficio Vendite </a></div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+            </section>
         </div>
         <!-- sezione find partner -->
         <!-- sezione what i can do -->

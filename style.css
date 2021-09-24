@@ -34,10 +34,15 @@ body{
 .r-side {
     float: right;
 }
+#start{
+    margin:10px;
+    font-size:12px;
+    padding: 5px 15px;
+
+}
 .btn{
     font-size:12px ;
-    margin:10px;
-    padding: 5px 15px;
+    padding: 5px 25px;
     text-decoration: none;
     
 }
@@ -45,16 +50,22 @@ body{
     background-color: #0061ff;
     color: white;
 }
+.btn-30free{
+    margin-bottom: 30px;
+}
+
 /* jumbotron */
 .jumbotron{
     background-color: #b4d0e7;
     max-height: 650px;
     margin-top: 70px;
+    margin-bottom: 200px;
 }
 .container{
     width: 80%;
     margin: 0 auto;
     padding-top: 100px;
+    margin-bottom: 200px;
 }
 .container h1{
     font-size: 60px;
@@ -83,23 +94,155 @@ body{
 
 }
 .btn-free-trial{
-    margin-left:0;
-    font-size: 15px;
+    font-size: 16px;
 }
 /* main */
 .container-center{
-    padding: 200px 0;
+    /* padding-top: 200px; */
     width: 70%;
     margin: 0 auto;
 }
-.container-center h2{
-    font-size: 35px;
-    padding-left: 30px;
+.align{
+    padding-left: 40px;
 }
+.container-center h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.align div{
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
 .subscription-plans{
     float: left;
     width: calc(100% / 3 - 60px);
-    height: 700px;
-    margin: 20px;
-    border: 1px solid black;
+    min-height: 900px;
+    margin: 30px;
+    border: 1px solid #dcdcdf;
 }
+.radio-btn{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+#radio-checked{
+    border: 4px solid #0161ff;
+}
+.header-sub{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #dcdcdf;
+}
+.header-sub i{
+    margin: 5px;
+}
+.features-sub{
+    padding: 20px 30px;
+}
+.text-plan{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.features-sub span{
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+}
+
+
+.price{
+    font-weight: bold;
+}
+.time-pay{
+    color: #9aa4ad;
+    
+}
+.features-list{
+    margin: 30px 0 40px 0;
+}
+.features-list li{
+   margin-left: 15px;
+   
+}
+.logo-list {
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: 15px;
+    
+}
+.logouser{
+    list-style-image: url(img/user-regular.svg);
+}
+.logouserplus{
+    list-style-image: url(img/user-plus-solid.svg);
+}
+.logofolder{
+    list-style-image: url(img/folder-regular.svg)
+}
+.logopen{
+    list-style-image: url(img/pen-solid.svg);
+}
+.logosmile{
+    list-style-image: url(img/smile-regular.svg);
+}
+
+.logo-list span{
+    font-size: 14px;
+}
+.buynow{
+    color: blue;
+}
+.hor-line{
+    width: 50px;
+    margin: 30px 0;
+    color:#dcdcdf ;
+}
+.plan-highlights h5{
+    font-size: 16px;
+    padding-bottom: 20px;
+
+}
+.checklogo{
+    list-style-type: none;
+    list-style-image: url(img/check-solid.svg);
+    
+}
+.subscription-plans-enterprise{
+    border: 1px solid #dcdcdf;
+    margin: 0 30px;
+
+}
+.ent-left{
+    float:left ;
+    width: 70%;
+}
+.ent-right{
+    float:right;
+    width: 30%;
+}
+.ent-left, .ent-right{
+    padding: 30px;
+}
+.ent-left p{
+    font-weight: bold;
+
+}
+.ent-left span{
+    display: block;
+    font-size: 12px;
+    margin-top: 40px;
+
+}
+.sell-off{
+    padding: 5px 40px;
+}
+
+
+
+
