@@ -273,6 +273,34 @@ margin-top: 30px;
 
 
 }
+.cont-bus-feat{
+    padding-top: 70px;
+}
+.business-features{
+    float: left;
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+
+}
+.cont-bus-feat h2{
+    padding-left: 35px;
+    padding-bottom: 20px;
+    font-size: 40px;
+
+
+} 
+.business-features img{
+    max-width: 100%;
+}
+.texth4{
+    font-size: 24px;
+}
+.business-text{
+    margin-bottom: 30px;
+}
+.business-ptext{
+    font-size: 16px;
+}
 
 
 
