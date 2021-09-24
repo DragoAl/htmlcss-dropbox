@@ -53,6 +53,17 @@ body{
 .btn-30free{
     margin-bottom: 30px;
 }
+.btn-free-trial{
+    font-size: 16px;
+}
+.white-btn{
+    background-color: whithe;
+    border: 1px solid #4f4f4f;
+    color: #4f4f4f;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
 
 /* jumbotron */
 .jumbotron{
@@ -93,9 +104,7 @@ body{
     max-width: 715px;
 
 }
-.btn-free-trial{
-    font-size: 16px;
-}
+
 /* main */
 .container-center{
     /* padding-top: 200px; */
@@ -241,6 +250,28 @@ body{
 }
 .sell-off{
     padding: 5px 40px;
+}
+.partner-img{
+    float: left;
+    width: 60%;
+}
+#partner-photo{
+    max-width: 100%;
+    
+}
+.partner-text{
+float:right;
+width: 40%;
+margin-top: 30px;
+}
+
+.partner-img, .partner-text{
+    padding: 200px 0 0 40px;
+}
+.btn-findpartner{
+    margin-top: 25px;
+
+
 }
 
 
