@@ -20,6 +20,7 @@ body{
     position: fixed;
     top: 0;
     right:0;
+    z-index: 999;
     
 }
 .l-side ,.r-side {
@@ -57,8 +58,7 @@ body{
     font-size: 16px;
 }
 .white-btn{
-    background-color: whithe;
-    border: 1px solid #4f4f4f;
+    background-color: white;
     color: #4f4f4f;
     font-size: 16px;
     margin-top: 15px;
@@ -260,9 +260,9 @@ body{
     
 }
 .partner-text{
-float:right;
-width: 40%;
-margin-top: 30px;
+    float:right;
+    width: 40%;
+    margin-top: 30px;
 }
 
 .partner-img, .partner-text{
@@ -271,6 +271,10 @@ margin-top: 30px;
 .btn-findpartner{
     margin-top: 25px;
 
+
+}
+.btn-find{
+    border: 1px solid #4f4f4f;
 
 }
 .cont-bus-feat{
@@ -312,10 +316,7 @@ margin-top: 30px;
     font-size: 35px;
     margin: 60px 0 30px 0;
 }
-.agency-container{
-   
-    min-height: ;
-}
+
 .agency-container{
     width: auto;
     height: 400px;
@@ -411,6 +412,55 @@ margin-top: 30px;
 .carousel p{
     margin-bottom: 15px;
     font-size: 16px;
+}
+.bringtobus-container{
+    background-color: #b4d0e7 ;
+    min-height: 300px;
+    
+}
+
+.bring-text{
+    float: left;
+    color: #641032;
+    padding: 100px 0;
+ 
+
+}
+.bring-container{
+    height: 100%;
+}
+.container-textbring, .container-btnbring{
+    width: 50%;
+    float: left;
+    height: 100%;
+    
+}
+
+
+.btn-bring{
+    float: right;
+    margin: 100px 0;
+    padding: 5px 50px;
+
+}
+.text-question{
+    margin: 0;
+    padding: 100px 0 50px 0;
+    border-bottom: 1px solid black;
+
+}
+.question{
+    padding: 40px 0;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.question i{
+    float: right;
+    font-size: 26px;
+    position: relative;
+    right: 2%;
+    color: black;
 }
 
 
