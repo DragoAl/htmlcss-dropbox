@@ -114,7 +114,7 @@ body{
 .align{
     padding-left: 40px;
 }
-.container-center h2{
+.texth2-findplan{
     font-size: 45px;
     margin-bottom: 30px;
 }
@@ -204,11 +204,11 @@ body{
 .logo-list span{
     font-size: 14px;
 }
-.buynow{
+.buynow, .discover-coustomers{
     color: blue;
 }
 .hor-line{
-    width: 50px;
+    width: 50px; 
     margin: 30px 0;
     color:#dcdcdf ;
 }
@@ -282,10 +282,13 @@ margin-top: 30px;
     margin: 20px;
 
 }
-.cont-bus-feat h2{
+.texth2{
+    font-size: 40px;
+
+}
+.function-h2text {
     padding-left: 35px;
     padding-bottom: 20px;
-    font-size: 40px;
 
 
 } 
@@ -301,6 +304,116 @@ margin-top: 30px;
 .business-ptext{
     font-size: 16px;
 }
+.container-textagency{
+    width: 50%;
+    padding-top: 50px;
+}
+.business-h2text{
+    font-size: 35px;
+    margin: 60px 0 30px 0;
+}
+.agency-container{
+   
+    min-height: ;
+}
+.agency-container{
+    width: auto;
+    height: 400px;
+    margin-top: 40px;
+
+}
+.left-agency{
+    float: left;
+    width: 30%;
+    height: 100%;
+    
+}
+.center-agency{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: #f5f5f5;
+
+
+    
+}
+.right-agency{
+    float: left;
+    width: 30%;
+    height: 100%;
+
+
+}
+.logoagency{
+    float: left;
+    width:50%;
+    max-height: 50%;
+    height: 100%;
+}
+
+.img-agency{
+    height: 100%;
+    max-width: 60%;
+    margin: 0 20%;
+    object-fit: contain;
+    filter: invert(1);
+}
+
+#design{
+    background-color: #a3d39b;
+    border: 8px solid rgba(0, 0, 0, 0.2);
+    /* 
+    ALTRA SOLUZIONE PER LE ICONE NEI CONTAINER
+    background-image: url(img/designit.svg);
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-position: center; */
+    
+   
+}
+#asu{
+    background-color: #61082b;
+}
+#florida{
+    background-color:#0093ce ;
+}
+#topps{
+    background-color:#ff1d1d ;
+}
+#bicycle{
+    background-color:#d5001e ;
+}
+#hearts{
+    background-color:#b4d0e7 ;
+}
+#planet{
+    background-color:#0d2481 ;
+}
+#channel{
+    background-color:#ffd830 ;
+}
+.carousel{
+    height: 100%;
+    padding: 30px;
+}
+#design-black{
+    filter: invert(0);
+    margin: 10px 10px;
+    height: 75px;
+}
+.carousel-img{
+    float: none;
+    display:inline-block;
+}
+.carousel hr{
+    margin-top: 10px;
+}
+.carousel p{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+
 
 
 
