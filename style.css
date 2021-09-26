@@ -415,7 +415,6 @@ body{
 }
 .bringtobus-container{
     background-color: #b4d0e7 ;
-    min-height: 300px;
     
 }
 
@@ -461,6 +460,47 @@ body{
     position: relative;
     right: 2%;
     color: black;
+}
+/* footer utility */
+.utility-container{
+    background-color: black;
+    height: 100%;
+}
+.utility-container-center{
+    width: 80%;
+    margin: 0 auto;
+}
+.utility-section{
+    float: left;
+    width: calc(100% / 5);
+    color: white;
+    margin: 100px 0 60px 0; 
+}
+.utility-section li, a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+/* footer language */
+.utility-section h4{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.hor-footer{
+    color: #8a8a8a;
+    width: 100px;
+    margin-bottom: 60px;
+}
+.lang-footer{
+    filter: invert(1);
+    font-size: 12px;
+    padding-bottom: 30px;
+    color: #505050;
+}
+.lang-footer .fa-globe-americas{
+    font-size: 16px;
 }
 
 
