@@ -111,9 +111,7 @@ body{
     width: 70%;
     margin: 0 auto;
 }
-.align{
-    padding-left: 40px;
-}
+
 .texth2-findplan{
     font-size: 45px;
     margin-bottom: 30px;
@@ -122,16 +120,21 @@ body{
 .align div{
     display: inline-block;
     padding-right: 20px;
+    margin-bottom: 30px;
 
 }
+
 
 .subscription-plans{
     float: left;
     width: calc((100% / 3) - 40px);
     min-height: 900px;
-    margin: 0 20px;
     border: 1px solid #dcdcdf;
 }
+.center-plan{
+    margin: 0 60px;
+}
+
 .radio-btn{
     display: inline-block;
     width: 15px;
@@ -224,7 +227,7 @@ body{
 }
 .subscription-plans-enterprise{
     border: 1px solid #dcdcdf;
-    margin: 0 30px;
+    margin-top: 30px;
 
 }
 .ent-left{
@@ -263,10 +266,11 @@ body{
     float:right;
     width: 40%;
     margin-top: 30px;
+    padding-left: 40px;
 }
 
 .partner-img, .partner-text{
-    padding: 200px 0 0 40px;
+    padding-top: 200px;
 }
 .btn-findpartner{
     margin-top: 25px;
@@ -283,15 +287,17 @@ body{
 .business-features{
     float: left;
     width: calc(100% / 3 - 40px);
-    margin: 20px;
+    padding: 40px;
 
+}
+.central-feat{
+    margin: 0 60px;
 }
 .texth2{
     font-size: 40px;
 
 }
 .function-h2text {
-    padding-left: 35px;
     padding-bottom: 20px;
 
 
