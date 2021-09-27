@@ -501,25 +501,37 @@ body{
 
 }
 /* ask section */
-.text-question{
+.text-faq{
     margin: 0;
     padding: 100px 0 50px 0;
     border-bottom: 1px solid black;
 
 }
-.question{
+.faq{
     padding: 40px 0;
     font-size: 14px;
     font-weight: bold;
     border-bottom: 1px solid black;
 }
-.question i{
+.faq i{
     float: right;
     font-size: 26px;
     position: relative;
     right: 2%;
     color: black;
 }
+.hide-answer{ 
+    display: none;
+    color: #9ba1a7;
+    padding: 20px 0;
+    font-weight: 500;
+    max-width: 80%;
+    
+}
+.faq:hover .hide-answer{
+    display: block;
+}
+
 /* footer utility */
 .utility-container{
     background-color: black;
