@@ -281,10 +281,12 @@ body{
     border: 1px solid #4f4f4f;
 
 }
+
+/* features section */
 .cont-bus-feat{
     padding-top: 70px;
 }
-.business-features{
+.dropbox-features{
     float: left;
     width: calc(100% / 3 - 40px);
     padding: 40px;
@@ -302,18 +304,20 @@ body{
 
 
 } 
-.business-features img{
+.dropbox-features img{
     max-width: 100%;
 }
 .texth4{
     font-size: 24px;
 }
-.business-text{
+.features-text{
     margin-bottom: 30px;
 }
-.business-ptext{
+.features-ptext{
     font-size: 16px;
 }
+
+/* partner agency section */
 .container-textagency{
     width: 50%;
     padding-top: 50px;
@@ -323,19 +327,19 @@ body{
     margin: 60px 0 30px 0;
 }
 
-.agency-container{
+.partner-container{
     width: auto;
     height: 400px;
     margin-top: 40px;
 
 }
-.left-agency{
+.left-partner{
     float: left;
     width: 30%;
     height: 100%;
     
 }
-.center-agency{
+.center-partner{
     float: left;
     width: 40%;
     height: 100%;
@@ -344,28 +348,28 @@ body{
 
     
 }
-.right-agency{
+.right-partner{
     float: left;
     width: 30%;
     height: 100%;
 
 
 }
-.logoagency{
+.logopartner{
     float: left;
     width:50%;
     max-height: 50%;
     height: 100%;
 }
 
-.img-agency{
+.img-partner{
     height: 100%;
     max-width: 60%;
     margin: 0 20%;
     object-fit: contain;
     filter: invert(1);
 }
-
+/* sfondi-colorati */
 #design{
     background-color: #a3d39b;
     border: 8px solid rgba(0, 0, 0, 0.2);
@@ -399,6 +403,7 @@ body{
 #channel{
     background-color:#ffd830 ;
 }
+/* carousel section */
 .carousel{
     height: 100%;
     padding: 30px;
@@ -419,6 +424,7 @@ body{
     margin-bottom: 15px;
     font-size: 16px;
 }
+
 /* bring to us */
 .bringtobus-container{
     background-color: #b4d0e7 ;
