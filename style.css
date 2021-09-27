@@ -127,9 +127,9 @@ body{
 
 .subscription-plans{
     float: left;
-    width: calc(100% / 3 - 60px);
+    width: calc((100% / 3) - 40px);
     min-height: 900px;
-    margin: 30px;
+    margin: 0 20px;
     border: 1px solid #dcdcdf;
 }
 .radio-btn{
@@ -413,6 +413,7 @@ body{
     margin-bottom: 15px;
     font-size: 16px;
 }
+/* bring to us */
 .bringtobus-container{
     background-color: #b4d0e7 ;
     
@@ -442,6 +443,7 @@ body{
     padding: 5px 50px;
 
 }
+/* ask section */
 .text-question{
     margin: 0;
     padding: 100px 0 50px 0;
